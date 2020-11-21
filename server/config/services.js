@@ -42,23 +42,18 @@
 
 module.exports = {
   service1: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3001',
-    bundle: 'app.js',
+    api: '/trips/questionsAndAnswers/*',
+    url: 'http://localhost:3200',
+    bundle: 'bundle.js',
   },
-  service2: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3002',
-    bundle: 'app.js',
-  },
-  service3: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3003',
-    bundle: 'app.js',
-  },
-  service4: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3004',
-    bundle: 'app.js',
-  },
+  // service2: {
+  //   api: '/api/trips/CarouselComponent',
+  //   url: 'http://localhost:3000',
+  //   bundle: 'bundle.js',
+  // },
+  // service3: {
+  //   api: '/api/trips/reviews',
+  //   url: 'http://localhost:3000',
+  //   bundle: 'bundle.js',
+  // },
 };
