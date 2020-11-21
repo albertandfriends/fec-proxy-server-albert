@@ -42,18 +42,18 @@
 
 module.exports = {
   service1: {
+    api: '/trips/CarouselComponent',
+    url: 'http://localhost:3001',
+    bundle: 'bundle.js',
+  },
+  service2: {
+    api: '/attractions/:attractionid/reviews',
+    url: 'http://localhost:3500',
+    bundle: 'bundle.js',
+  },
+  service3: {
     api: '/trips/questionsAndAnswers/*',
     url: 'http://localhost:3200',
     bundle: 'bundle.js',
   },
-  // service2: {
-  //   api: '/api/trips/CarouselComponent',
-  //   url: 'http://localhost:3000',
-  //   bundle: 'bundle.js',
-  // },
-  // service3: {
-  //   api: '/api/trips/reviews',
-  //   url: 'http://localhost:3000',
-  //   bundle: 'bundle.js',
-  // },
 };
