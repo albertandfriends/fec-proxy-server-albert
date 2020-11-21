@@ -43,17 +43,17 @@
 module.exports = {
   service1: {
     api: '/trips/CarouselComponent',
-    url: 'http://localhost:3001',
+    url: 'http://13.56.212.3:3002/',
     bundle: 'bundle.js',
   },
   service2: {
     api: '/attractions/:attractionid/reviews',
-    url: 'http://localhost:3500',
+    url: 'http://3.101.65.22:5000/',
     bundle: 'bundle.js',
   },
   service3: {
     api: '/trips/questionsAndAnswers/*',
-    url: 'http://localhost:3200',
+    url: 'http://34.202.158.209:3200',
     bundle: 'bundle.js',
   },
 };
